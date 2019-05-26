@@ -1,0 +1,140 @@
+header{
+    margin: auto;
+    border : 10px solid #392A59;
+    position : static;
+    padding: 10px;
+    width: 66%;
+    font-family: 'Do Hyeon', sans-serif;
+    background-color: rgb(224, 214, 212);
+    z-index: 4;
+}
+
+.intro-text {
+    width:100%;
+    padding: 0;
+    text-align: center;
+}
+
+/*웰치스 캔 사진*/
+#our_logo {
+    width: 160px;
+    height: 120px;
+}
+
+/*navbar 기본*/
+.nav.justify-content-end {
+    text-decoration: none;
+    color: #000;
+    font-size: 16pt;
+}
+/*navbar 마우스 올렸을 때*/
+.nav-link:hover {
+    text-decoration: underline;
+    background-color:  rgb(71, 14, 117);
+    border-radius: 12px;
+    color: #fff;
+}
+
+#page-top {
+    background-color: rgb(173, 72, 255);
+    margin: 0%;
+}
+
+img {
+    width: 300px;
+    height: 400px;
+}
+
+li {
+    list-style: none;
+}
+
+.personal {
+    display: block;
+    width: 66%;
+    height: 500px;
+}
+
+.name {
+    text-align: center ;
+    font-family: 'Nanum Pen Script', cursive;
+    background-color: #A6325C;
+    padding: 10px ;
+    margin: auto;
+    font-size: 28pt;
+}
+
+.intro {
+    font-size: 18pt;
+    padding: 100px;
+    font-family: 'Stylish', sans-serif;  
+}
+
+#hwa {
+    margin:auto;
+    background-color: rgb(224, 214, 212);
+    text-align: left; 
+}
+img.hwa_image {
+    float: left;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 20px;
+    margin-left: 40px;
+}
+
+#gyu {
+    margin:auto;
+    background-color: rgb(224, 214, 212);
+    text-align: right;   
+}
+img.gyu_image {
+    float: right;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 40px;
+    margin-left: 20px;
+}
+
+#jyeon {
+    margin: auto;
+    text-align: left ;
+    background-color: rgb(224, 214, 212);
+}
+img.jyeon_image { 
+    float: left;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 20px;
+    margin-left: 40px;
+}
+.jyeon.jyeon_intro {
+    padding-left: 10px;
+}
+
+#yyoung {
+    margin: auto;
+    text-align: right;
+    background-color: rgb(224, 214, 212);
+}
+img.yyoung_image { 
+    float: right;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 40px;
+    margin-left: 20px;
+}
+.yyoung #yyoung_intro {
+    margin: auto;
+    padding-right: 10px;
+}
+
+footer {
+    text-align: center;
+    background-color : rgb(71, 14, 117);
+    color: rgb(224, 214, 212);
+    font-family: 'Nanum Pen Script', cursive;
+    width:100%;
+    padding: 10px 0 10px 0;
+    font-size: 14pt;
+  }
